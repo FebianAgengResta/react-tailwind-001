@@ -2,14 +2,17 @@ import React from 'react'
 
 function Price3(props) {
   return (
-    <div>
-            <div class=" relative mx-auto max-w-md rounded-lg bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5 shadow-lg">
-    <div class="bg-white p-7 rounded-md">
+    <div class="border-transparent relative mx-auto max-w-md rounded-3xl bg-gradient-to-tr from-pink-300 to-red-400 p-1 shadow-lg">
+    <div class="bg-white p-7 rounded-3xl">
     
-    <div class="relative max-w-xl mx-auto h-auto">
-    <img class=" w-full object-cover rounded-md" src="https://images.unsplash.com/photo-1680725779155-456faadefa26" alt="Random image"></img>
+    <div class="relative max-w-xl mx-auto ">
     <div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div>
     <div class="absolute inset-0 flex items-center justify-center">
+    
+
+    </div> 
+    
+    </div> 
     <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Paket Rakyat 3</h5>
     <div class="flex items-baseline text-gray-900 dark:text-white">
     <span class="text-3xl font-semibold">Rp.</span>
@@ -44,14 +47,14 @@ function Price3(props) {
     </li>
     
     </ul>
-
-    </div> 
+    <div class="flex items-center justify-center">
+                 <button class="mx-auto lg:mx-0 hover:underline bg-gradient-to-r from-cyan-400 to-cyan-600 text-white font-bold rounded-full my-6 py-4 px-20 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                   Choose plan
+                 </button>
+               </div>
+    </div>
+    </div>
     
-    </div> 
-    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
-    </div>
-    </div>
-        </div>
   )
 }
 
